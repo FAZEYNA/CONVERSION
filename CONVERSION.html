@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>CONVERSION</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="CONVERSION.css">
+</head>
+<body>
+	<div class="contenu">
+		<h1 style="text-align: center">SYSTEME DE CONVERSION</h1>
+		<div id = "form">
+			<label>BASE 10</label>
+			<input type="text" name="" id="base10" onblur="CONVERSION10()" placeholder="Décimal (base 10)">
+			<span id="erreurb10"></span>
+			<label>BASE 16</label>
+			<input type="text" name="" id="base16" onblur="CONVERSION16()" placeholder="Héxadécimal (base 16)">
+			<span id="erreurb16"></span>
+			<label>BASE 2</label>
+			<input type="text" name="" id="base2"  onblur="CONVERSION2()" placeholder="Binaire (base 2)">
+			<span id="erreurb2"></span>
+		</div>
+	</div>
+</body>
+<script type="text/javascript" src="CONVERSION.js"></script>
+</html>

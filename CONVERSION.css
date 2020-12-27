@@ -1,0 +1,27 @@
+body{
+	background-color: black;
+}
+.contenu{
+	font-family: bahnschrift;
+	color: deeppink;
+	width: 50%;
+	margin-left: 25%;
+	margin-top: 10%;
+}
+label{
+	font-size: 15px;
+}
+#form{
+	background-color: lightgrey;
+	border: 2px solid deeppink;
+	padding: 10%;
+	border-radius: 10px;
+}
+#form input{
+	padding: 10px;
+	border: 1px dotted deeppink;
+	border-radius: 10px;
+	width: 100%;
+	margin-bottom: 15px;
+	font-size: 20px;
+}
